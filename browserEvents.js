@@ -9,7 +9,7 @@ window.forceBackToTopOnReload = () => {
 window.redirectIfNeeded = () => {
     if (sessionStorage.getItem("redirectToTop") === "true") {
         sessionStorage.removeItem("redirectToTop");
-        location.replace("/");  // Topへリダイレクト（履歴を残さない）
+        location.replace("/PartyMatch/index.html");  // Topへリダイレクト（履歴を残さない）
     }
 };
 
